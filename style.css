@@ -1,0 +1,19 @@
+
+body {
+    background: hsl(30, 38%, 92%);
+}
+
+.component {
+    display: flex;
+    background: #ffffff;
+    border: 1px red solid;
+    border-radius: 10px;
+    width: 40%;
+    margin: 10% auto;
+    
+}
+
+.component img {
+    width: 50%;
+    border-radius: 10px 0 0 10px ;
+}
