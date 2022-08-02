@@ -1,16 +1,25 @@
 
+/*variável root para cor e fonte*/
+:root {
+    --branco: #fff;
+    --verde: hsl(158, 36%, 37%);
+    --fundopagina: hsl(30, 38%, 92%);
+
+    --montserrat: 'Montserrat', sans-serif;
+    --fraunces: 'Fraunces', sans-serif;
+}
+
+
 body {
-    background: hsl(30, 38%, 92%);
+    background: var(--fundopagina);
 }
 
 .component {
     display: flex;
-    background: #ffffff;
-    border: 1px red solid;
+    background: var(--branco);
     border-radius: 10px;
     width: 40%;
-    margin: 10% auto;
-    
+    margin: 10% auto;    
 }
 
 .component img {
