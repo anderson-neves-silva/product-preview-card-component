@@ -4,11 +4,7 @@
     --branco: #fff;
     --verde: hsl(158, 36%, 37%);
     --fundopagina: hsl(30, 38%, 92%);
-
-    --montserrat: 'Montserrat', sans-serif;
-    --fraunces: 'Fraunces', sans-serif;
 }
-
 
 body {
     background: var(--fundopagina);
@@ -26,3 +22,30 @@ body {
     width: 50%;
     border-radius: 10px 0 0 10px ;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+    margin-top: 30px;
+}
+
+.container h1 {
+    font-size: 2rem;
+    font-family: 'Fraunces', serif;
+}
+
+.container p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.box-price {
+    color: var(--verde);
+    font-family: 'Fraunces', serif;
+
+}
+
+
+
+
