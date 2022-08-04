@@ -36,14 +36,39 @@ body {
 }
 
 .container p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-bottom: 15px;
 }
 
 .box-price {
+    display: flex;
     color: var(--verde);
+    font-size: 1.8rem;
     font-family: 'Fraunces', serif;
+    ;
+}
 
+.lower-price {
+    font-family: 'Montserrat', serif;
+    font-size: .2rem;
+}
+
+.botao {
+    font-family: 'Montserrat', serif;
+    font-weight: bold;
+    font-size: .8rem;
+    text-align: center;
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    box-sizing: border-box;
+    padding: .5rem 1rem;
+    background: var(--verde);
+    color: var(--branco);
+    text-decoration: none;
+
+    border: 1px solid var(--verde);
+    border-radius: 5px;
 }
 
 
