@@ -6,25 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
     <title>Product preview card component</title>
   </head>
   <body>
-    <main>
-      <section class="component">
-        <img src="images/image-product-desktop.jpg" alt="Product">
-          <div class="container">
-            <p>Perfume</p>
-            <h1>Gabrielle Essence Eau De Parfum</h1>
-            <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-              Perfumer-Creator for the House of CHANEL.</p>
-            <div class="box-price">
-              <p>$149.99</p>
-              <p class="lower-price">$169.99</p>
-            </div>
-            <a href="#" class="botao">Add to Cart</a>
-          </div>
-        </img>
-      </section>
-    </main>
+    <section class="container">
+      <div class="caixa">
+        <img src="images/image-product-desktop.jpg" alt="Product" class="container__img">               
+        <p>Perfume</p>
+        <h1>Gabrielle Essence Eau De Parfum</h1>
+        <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+        <div class="component__preco">
+          <p>$149.99</p>
+          <p class="component__menor_preco">$169.99</p>
+        </div>
+        <a href="#" class="component__botao">Add to Cart</a>        
+      </div>
+    </section>
   </body>
 </html>
