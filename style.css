@@ -54,12 +54,11 @@ body {
 
 .component__preco {
     display: flex;
-    align-items: center;
-    
+    align-items: center;    
     font-family: var(--fonte-frauces);
     color: var(--verde);
     font-size: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .component__menor_preco {
@@ -71,13 +70,13 @@ body {
 }
 
 .component__botao {
-    padding: 13px 65px;
+    padding: 13px 3.5em;
     border: 1px solid;
     border-radius: 10px;
     background-color: var(--verde);
     color: var(--branco);
     text-decoration: none;
-    font-weight: 700;   
+    font-weight: 700;
 }
 
 .icone__carinho {
@@ -87,8 +86,3 @@ body {
 .component__botao:hover {
     background-color: rgb(46, 88, 46);
 }
-
-
-
-
-
